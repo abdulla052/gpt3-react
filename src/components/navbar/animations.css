@@ -1,0 +1,22 @@
+/* This file is optional */
+
+.gpt3__navbar-links_container p {
+  position: relative;
+  display: inline-block;
+}
+
+.gpt3__navbar-links_container p:after {
+  content: "";
+  display: block;
+  width: 0; /* Hidden initially */
+  height: 1px; /* Adjust height as needed */
+  background-color: #fff; /* Change color as desired */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease-in-out; /* Animate the width */
+}
+
+.gpt3__navbar-links_container p:hover:after {
+  width: 100%; /* Line spans the full width on hover */
+}

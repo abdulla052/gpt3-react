@@ -1,0 +1,28 @@
+.gpt3__scroll-container {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.gpt3__scroll-brand {
+  display: inline-block;
+  animation: 15s slide infinite linear;
+}
+
+.gpt3__scroll-container img {
+  margin-inline: 3rem;
+}
+
+.gpt3__scroll-container:hover .gpt3__scroll-brand {
+  animation-play-state: paused;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
