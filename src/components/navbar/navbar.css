@@ -112,6 +112,7 @@
 
 .gpt3__navbar-menu_container p {
   margin: 2rem 0;
+  font-size: 20px;
 }
 
 .gpt3__navbar-menu_container-links-sign {
@@ -123,7 +124,6 @@ hr {
   height: 0.5px;
   width: 10rem;
   border: none;
-
 }
 
 /* ////////////-------|-------//////////// */
