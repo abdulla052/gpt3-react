@@ -44,6 +44,7 @@ const Navbar = () => {
       <div className="gpt3__navbar-menu">
         {toggleMenu ? (
           <RiCloseLine
+            className="closeBtn"
             color="#fff"
             size={27}
             onClick={() => setToggleMenu(false)}
@@ -61,6 +62,7 @@ const Navbar = () => {
             <div className="gpt3__navbar-menu_container-links">
               <Menu />
               <div className="gpt3__navbar-menu_container-links-sign">
+                <hr />
                 <p>Sign in</p>
                 <button>Sign up</button>
               </div>
