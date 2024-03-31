@@ -89,7 +89,7 @@
   flex-direction: column;
 
   /* text-align: end; */
-  background: var(--color-footer);
+  background: rgba(3, 27, 52, 0.85);
   padding: 1.5rem 2rem;
   position: fixed;
   top: -15px;
