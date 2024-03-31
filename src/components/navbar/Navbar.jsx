@@ -58,7 +58,7 @@ const Navbar = () => {
         )}
 
         {toggleMenu && (
-          <div className="gpt3__navbar-menu_container slide-bottom">
+          <div className="gpt3__navbar-menu_container slide-left">
             <div className="gpt3__navbar-menu_container-links">
               <Menu />
               <div className="gpt3__navbar-menu_container-links-sign">
