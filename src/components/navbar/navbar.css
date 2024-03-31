@@ -89,7 +89,7 @@
   flex-direction: column;
 
   /* text-align: end; */
-  background: rgba(3, 27, 52, 0.85);
+  background: var(--color-footer);
   padding: 1.5rem 2rem;
   position: fixed;
   top: -15px;
@@ -164,6 +164,7 @@ hr {
 
   .gpt3__navbar-menu_container {
     /* top: 20px; */
+    background: rgba(3, 27, 52, 0.85);
 
     left: 0;
     align-items: center;
